@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Login.css';
 import './Home.css';
 import Txt from '../Components/Txt';
@@ -16,7 +17,7 @@ const Login = () => {
                 </div>
                 <p className='st2 g1'>Forgot your Password?</p>
             </div>
-            <button className='logbtn'>Login</button>
+            <Link to="/home"><button className='logbtn'>Login</button></Link>
             <hr />
             <div className='cen row cen2'>
                 <p className='st2'>Don’t have an Account?</p>

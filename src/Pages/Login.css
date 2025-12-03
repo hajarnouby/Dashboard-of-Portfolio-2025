@@ -46,7 +46,7 @@ input[type=checked] {
 .logbtn{
   display: flex;
 
-padding: 10px 15px;
+padding: 10px 330px;
 justify-content: center;
 align-items: center;
 gap: 10px;

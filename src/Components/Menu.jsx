@@ -4,6 +4,7 @@ const Menu = () => {
     return ( 
         <div class="dashboard-layout">
 
+
   {/* <!-- Sidebar Menu --> */}
   <aside class="sidebar">
     <div class="profile">
@@ -13,12 +14,12 @@ const Menu = () => {
 
     <nav class="menu">
       <a href="#" class="menu-item active">Dashboard</a>
-      <a href="#" class="menu-item">Content</a>
-      <a href="#" class="menu-item">Pages</a>
-      <a href="#" class="menu-item">Analytics</a>
-      <a href="#" class="menu-item">Messages</a>
-      <a href="#" class="menu-item">Blogs</a>
-      <a href="#" class="menu-item">System</a>
+      <a href="#" class="menu-item">Content Management</a>
+      <a href="#" class="menu-item">Pages Management</a>
+      <a href="#" class="menu-item">Analytics & Reports</a>
+      <a href="#" class="menu-item">Notifications & Messsages</a>
+      <a href="#" class="menu-item">Blogs Management</a>
+      <a href="#" class="menu-item">System Activity</a>
       <a href="#" class="menu-item">Settings</a>
     </nav>
 
