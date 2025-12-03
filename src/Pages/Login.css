@@ -24,4 +24,48 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: var(--black);
 }
+input[type=checked] {
+  width: 100%;
+  background-color: var(--red);
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.p1{
+  text-wrap: nowrap;
+}
+.sp1{
+  padding-left: 2%;
+}
+.sp2{
+  padding-left: 5px;
+}
+.logbtn{
+  display: flex;
 
+padding: 10px 15px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 10px;
+border: none;
+background: var(--red, #F00);
+color: var(--white, #F7F9F8);
+font-weight: 700;
+font-size: 1.5rem;
+}
+.logbtn:hover{
+  background-color: rgb(170, 0, 0);
+}
+hr{
+
+height: 1px;
+background-color: var(--white);
+align-self: stretch;
+
+}

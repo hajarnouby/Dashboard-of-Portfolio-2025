@@ -59,18 +59,35 @@ p{
   justify-content: center;
   align-items: center;
   align-content: center;
+
 }
 body{
   color: var(--white);
   font-family: "Inter", sans-serif;
   background-color: var(--bg);
 }
-.w1{
+.st1{
   font-weight: 500;
 }
-.w2{
+.st2{
   font-weight: 700;
 }
-.w3{
+.st3{
   font-weight: 800;
+}
+.g1{
+  color: var(--grey1);
+}
+.red{
+  color: var(--red);
+}
+.sb{
+  display: flex;
+  justify-content: space-between;
+}
+.width100{
+  width: 100%;
+}
+.cen2{
+    margin: 0 auto;
 }
