@@ -1,0 +1,15 @@
+:root{
+  --bg: #1B1C20 ;
+  --black: #000000 ;
+  --white: #F7F9F8 ;
+  --red: #FF0000 ;
+  --terq: #41FFC0 ;
+  --blue: #60A5FF ;
+  --grey1: #C1C1C1 ;
+  --grey2: #6F6F6F ;
+  --grey3: #222225 ;
+  --size64: 64px;
+  --size48: 48px;
+  --size24: 24px;
+  --size16: 16px;
+}
