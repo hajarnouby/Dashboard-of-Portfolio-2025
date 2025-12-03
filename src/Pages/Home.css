@@ -8,8 +8,69 @@
   --grey1: #C1C1C1 ;
   --grey2: #6F6F6F ;
   --grey3: #222225 ;
-  --size64: 64px;
+  --size64: 3rem;
   --size48: 48px;
-  --size24: 24px;
-  --size16: 16px;
+  --size32: 2rem;
+  --size24: 1.5rem;
+  --size16: 1rem;
+}
+.fnt{
+      font-family: "Inter", sans-serif;
+}
+h1{
+    font-family: "Inter", sans-serif;
+  font-size: var(--size64);
+}
+h2{
+  font-size: var(--size48);
+    font-family: "Inter", sans-serif;
+
+}
+h4{
+  font-size: var(--size32);
+  font-family: "Inter", sans-serif;
+
+}
+h4{
+  font-size: var(--size24);
+  font-family: "Inter", sans-serif;
+
+}
+p{
+  font-size: var(--size16);
+  font-family: "Inter", sans-serif;
+
+}
+.page{
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+body{
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+}
+.w1{
+  font-weight: 500;
+}
+.w2{
+  font-weight: 700;
+}
+.w3{
+  font-weight: 800;
 }
