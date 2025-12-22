@@ -11,7 +11,7 @@ const Routing = () => {
         <BrowserRouter>
         <Routes>
              <Route path="/" element={<Login />} />   
-             <Route path="/home" element={<Home />} />  
+             <Route path="/dashboard" element={<Home />} />  
              <Route path="/ProjectsTable" element={<ProjectsTable />} />  
              <Route path="/pages-management" element={<Cpm />} />  
              <Route path="/content-management" element={<Content />} />  

@@ -18,7 +18,7 @@ const Login = () => {
                 </div>
                 <p className='st2 g1'>Forgot your Password?</p>
             </div>
-            <Link to="/home"><button className='logbtn'>Login</button></Link>
+            <Link to="/dashboard"><button className='logbtn'>Login</button></Link>
             <hr />
             <div className='cen row cen2'>
                 <p className='st2'>Don’t have an Account?</p>

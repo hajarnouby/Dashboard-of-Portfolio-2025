@@ -4,7 +4,7 @@ const Info = (props) => {
     return ( 
         <>
         <div className='info col'>
-            <div className='row sp4'>
+            <div className='tit row sp4'>
             <p className='unli '>Title:</p>
             <h4 className='st2 nw'>{props.title}</h4>
             </div>

@@ -1,5 +1,6 @@
 .info{
     gap: 2%;
+    padding: 20px;
 }
 .unli{
     text-decoration: underline solid 1px var(--white);
@@ -7,4 +8,7 @@
 }
 .w1{
     width: 410px;
+}
+.tit{
+    align-items: baseline;
 }
