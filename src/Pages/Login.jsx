@@ -7,6 +7,7 @@ import Form from '../Components/For';
 const Login = () => {
     return ( 
         <>
+        
         <div className='page cen col'>
             <div className='div1'>
             <Txt title="Welcome Back!" />

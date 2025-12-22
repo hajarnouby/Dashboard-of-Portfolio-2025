@@ -1,0 +1,12 @@
+.BtnPDF{
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 5px;
+border-radius: 10px;
+background: var(--white, #F7F9F8);
+font-size: var(--size16);
+text-wrap: nowrap;
+border: none;
+}

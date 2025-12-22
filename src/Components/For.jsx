@@ -7,6 +7,7 @@ const Form = (props) => {
                 <input placeholder={props.placeholder}>{props.name}</input>
                 <label>{props.pass}</label>
                 <input type='password' placeholder={props.place}></input>
+                
             </>
         
      );

@@ -1,44 +1,54 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Menu.css'
 const Menu = () => {
     return ( 
         <div class="dashboard-layout">
 
-
   {/* <!-- Sidebar Menu --> */}
   <aside class="sidebar">
     <div class="profile">
-
-      <h3>Hajora</h3>
+      <p>Welcome Back!</p>
+      <br />
+      <h4>Hajora</h4>
     </div>
 
     <nav class="menu">
-      <a href="#" class="menu-item active">Dashboard</a>
-      <a href="#" class="menu-item">Content Management</a>
-      <a href="#" class="menu-item">Pages Management</a>
-      <a href="#" class="menu-item">Analytics & Reports</a>
-      <a href="#" class="menu-item">Notifications & Messsages</a>
-      <a href="#" class="menu-item">Blogs Management</a>
-      <a href="#" class="menu-item">System Activity</a>
-      <a href="#" class="menu-item">Settings</a>
+<Link to="/dashboard">
+  <p className="menu-item active">Dashboard</p>
+</Link>
+
+<Link to="/content-management">
+  <p className="menu-item">Content Management</p>
+</Link>
+
+<Link to="/pages-management">
+  <p className="menu-item">Pages Management</p>
+</Link>
+
+<Link to="/analytics">
+  <p className="menu-item">Analytics & Reports</p>
+</Link>
+
+<Link to="/notifications">
+  <p className="menu-item">Notifications & Messages</p>
+</Link>
+
+<Link to="/blogs">
+  <p className="menu-item">Blogs Management</p>
+</Link>
+
+<Link to="/system-activity">
+  <p className="menu-item">System Activity</p>
+</Link>
+
+<Link to="/settings">
+  <p className="menu-item">Settings</p>
+</Link>
     </nav>
 
     <a href="#" class="logout">Logout</a>
   </aside>
-
-  {/* <!-- Main Content --> */}
-  <main class="main">
-    <h1>Welcome Back, Hajora!</h1>
-
-    <div class="cards">
-      <div class="card">Total Visitors</div>
-      <div class="card">Total Projects</div>
-      <div class="card wide">Posting Rate</div>
-      <div class="card">Home Page Visit Rate</div>
-      <div class="card">Projects Categories</div>
-    </div>
-  </main>
-
 </div>
 
      );

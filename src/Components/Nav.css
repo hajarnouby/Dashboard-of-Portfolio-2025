@@ -1,0 +1,14 @@
+nav{
+    background-color: var(--black);
+    padding: 20px 24px;
+    /* display: flex; */
+    
+}
+.nav{
+    display: flex;
+  justify-content: space-between;
+
+}
+.ico{
+    padding-right: 10%;
+}
