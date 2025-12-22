@@ -1,0 +1,42 @@
+.inbox{
+    display: flex;
+
+padding: 1.25rem 1.75rem;
+justify-content: space-between;
+align-items: center;
+display: flex;
+ padding: 1.25rem 1.75rem;
+justify-content: space-between;
+align-items: center;
+background: var(--grey-3, #222225);
+  border-radius: 0.625rem;
+  margin-bottom: 2%;
+
+}
+.notread{
+background-color: var(--red);
+display: flex;
+width: 8.1875rem;
+height: 2.125rem;
+padding: 0.3125rem 0.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.3125rem;
+flex-shrink: 0;
+aspect-ratio: 131/34;
+border-radius: 0.625rem;
+background: var(--red, #F00);
+}
+.read{
+    display: flex;
+width: 8.1875rem;
+height: 2.125rem;
+padding: 0.3125rem 0.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.3125rem;
+flex-shrink: 0;
+aspect-ratio: 131/34;
+border-radius: 0.625rem;
+background-color: var(--black, #000);
+}

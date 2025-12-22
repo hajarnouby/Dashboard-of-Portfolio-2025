@@ -1,0 +1,14 @@
+.del{
+    border-radius: 0.625rem;
+background: var(--red, #F00);
+display: flex;
+width: 6.9375rem;
+height: 2.4375rem;
+padding: 0.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+font-weight: 500;
+color: var(--white);
+border: none;
+}

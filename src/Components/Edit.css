@@ -1,0 +1,14 @@
+.edit{
+        border-radius: 0.625rem;
+background: var(--white);
+display: flex;
+width: 6.9375rem;
+height: 2.4375rem;
+padding: 0.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+font-weight: 500;
+color: var(--black);
+border: none;
+}

@@ -1,0 +1,11 @@
+.lm{
+    border-left: 1px solid var(--white, #F7F9F8);
+    display: flex;
+width: 6.9375rem;
+height: 1.5625rem;
+padding: 0.625rem;
+justify-content: center;
+align-items: center;
+gap: 0.3125rem;
+margin-top: 4%;
+}
