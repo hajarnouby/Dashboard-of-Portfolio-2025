@@ -122,6 +122,7 @@ body{
 .page2{
   padding: 20px 40px;
   width: 100%;
+    min-height: 100vh;
   }
 .box1{
   width: 28.125rem;
@@ -167,4 +168,13 @@ display: flex;
  padding: 1.25rem 1.75rem;
 justify-content: space-between;
 align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+Link{
+    text-decoration: none;
+    color: inherit;
 }

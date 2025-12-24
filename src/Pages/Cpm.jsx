@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Cpm.css';
 import Nav from '../Components/Nav';
 import Edit from '../Components/Edit';
-
+import Menu from '../Components/Menu';
 const Cpm = () => {
   const [activeTab, setActiveTab] = useState('Page');
   
@@ -12,50 +12,7 @@ const Cpm = () => {
          <Nav />
         <div class="dashboard-layout">
 
-  {/* <!-- Sidebar Menu --> */}
-  <aside class="sidebar">
-    <div class="profile">
-      <p>Welcome Back!</p>
-      <br />
-      <h4>Hajora</h4>
-    </div>
-
-    <nav class="menu">
-<Link to="/dashboard">
-  <p className="menu-item">Dashboard</p>
-</Link>
-
-<Link to="/content-management">
-  <p className="menu-item active">Content Management</p>
-</Link>
-
-<Link to="/pages-management">
-  <p className="menu-item">Pages Management</p>
-</Link>
-
-<Link to="/analytics">
-  <p className="menu-item">Analytics & Reports</p>
-</Link>
-
-<Link to="/notifications">
-  <p className="menu-item">Notifications & Messages</p>
-</Link>
-
-<Link to="/blogs">
-  <p className="menu-item">Blogs Management</p>
-</Link>
-
-<Link to="/system-activity">
-  <p className="menu-item">System Activity</p>
-</Link>
-
-<Link to="/settings">
-  <p className="menu-item">Settings</p>
-</Link>
-    </nav>
-
-    <a href="#" class="logout">Logout</a>
-  </aside>
+  <Menu />
 <div className='page2'>
                <div className="cpm-container">
       <h1 className="cpm-title">What Are We Creating?</h1>

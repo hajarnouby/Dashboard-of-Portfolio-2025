@@ -6,12 +6,16 @@ import Login from './Pages/Login';
 import Content from './Pages/ContentM';
 import ProjectsTable from './Pages/ProjectsTable';
 import Cpm from './Pages/Cpm';
+import Nm from './Pages/Nm';
+import Pro from './Pages/Profile';
 const Routing = () => {
     return ( 
         <BrowserRouter>
         <Routes>
              <Route path="/" element={<Login />} />   
              <Route path="/dashboard" element={<Home />} />  
+             <Route path="/test" element={<Nm />} />  
+             <Route path="/profile" element={<Pro />} />  
              <Route path="/ProjectsTable" element={<ProjectsTable />} />  
              <Route path="/pages-management" element={<Cpm />} />  
              <Route path="/content-management" element={<Content />} />  
